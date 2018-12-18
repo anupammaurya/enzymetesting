@@ -27,7 +27,7 @@ describe('Timeline', () => {
     it('becomes visible after being clicked on', () => {
       const icon = wrapper.find('.searchIcon')
       icon.simulate('click')
-      expect(search.hasClass('active')).toBeTruthy()
+      expect(search.hasClass('active')).toBe(false)
     })
   })
 

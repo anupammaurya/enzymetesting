@@ -12,8 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jsdom"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,7 +25,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "sinon": "^2.1.0"
   }
 }
