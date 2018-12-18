@@ -2,13 +2,14 @@ import React from 'react';
 
 import Header from './Header'
 import ActivityItem from './ActivityItem'
-import './Timeline.scss'
+import './Timeline.css'
 // Could be fetched from a server
 import activities from '../../data.json';
 
 class Timeline extends React.Component {
   render() {
     return (
+      <div className="demo">
       <div className="notificationsFrame">
         <div className="panel">
           <Header title="Timeline" />
@@ -21,6 +22,7 @@ class Timeline extends React.Component {
             ))}
           </div>
         </div>
+      </div>
       </div>
     )
   }
